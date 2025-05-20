@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY target/Docker-1.4.25  /usr/app/
+COPY target/Docker-1.4.25.jar  /usr/app/
 
 WORKDIR /usr/app/
 
